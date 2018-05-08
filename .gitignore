@@ -1,0 +1,6 @@
+.pioenvs
+.piolibdeps
+.clang_complete
+env/
+include/
+.travis.yml
