@@ -17,7 +17,7 @@ Note that this project is configured for an Arduino Mega 2560. If you're using a
 `user@clipbot:~/clipbot_arduino$ virtualenv env`<br>
 `user@clipbot:~/clipbot_arduino$ source env/bin/activate`<br>
 `(env) user@clipbot:~/clipbot_arduino$ easy_install -U pip`<br>
-`(env) user@clipbot:~/clipbot_arduino$ easy_install -U platformio`
+`(env) user@clipbot:~/clipbot_arduino$ easy_install -U platformio`<br>
 `(env) user@clipbot:~/clipbot_arduino$ deactivate`<br>
 `user@clipbot:~/clipbot_arduino$`
 
