@@ -16,20 +16,17 @@ Note that this project is configured for an Arduino Mega 2560. If you're using a
 `user@clipbot:~$ cd clipbot_arduino`<br>
 `user@clipbot:~/clipbot_arduino$ virtualenv env`<br>
 `user@clipbot:~/clipbot_arduino$ source env/bin/activate`<br>
-`(env) user@clipbot:~/clipbot_arduino$ pip --version`<br>
-`  pip 8.1.1 from /usr/lib/python2.7/dist-packages (python 2.7)`<br>
 `(env) user@clipbot:~/clipbot_arduino$ easy_install -U pip`<br>
-`(env) user@clipbot:~/clipbot_arduino$ pip --version`<br>
-`  pip 10.0.1 from [...]/clipbot_arduino/env/local/lib/python2.7/site-packages/pip (python 2.7)`<br>
 `(env) user@clipbot:~/clipbot_arduino$ easy_install -U platformio`
+`(env) user@clipbot:~/clipbot_arduino$ deactivate`<br>
+`user@clipbot:~/clipbot_arduino$`
 
 #### Clone repository.
 
-`(env) user@clipbot:~/clipbot_arduino$ git clone https://github.com/static55/clipbot_arduino.git`
+`user@clipbot:~/clipbot_arduino$ git clone https://github.com/static55/clipbot_arduino.git`
 
 #### Create rosserial include files.
 
-`(env) user@clipbot:~/clipbot_arduino$ deactivate`<br>
 `user@clipbot:~/clipbot_arduino$ cd clipbot_arduino`<br>
 `user@clipbot:~/clipbot_arduino/clipbot_arduino$ rosrun rosserial_arduino make_libraries.py .`<br>
 `user@clipbot:~/clipbot_arduino/clipbot_arduino$ mv ros_lib include`
