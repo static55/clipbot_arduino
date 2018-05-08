@@ -13,5 +13,8 @@ This is the Arduino code my robot uses with BotCtrl and clipbot_sshd. It depends
 `user@clipbot:~/clipbot_arduino$ virtualenv env`<br>
 `user@clipbot:~/clipbot_arduino$ source env/bin/activate`<br>
 `(env) user@clipbot:~/clipbot_arduino$ pip --version`<br>
-`pip 8.1.1 from /usr/lib/python2.7/dist-packages (python 2.7)`
-
+`pip 8.1.1 from /usr/lib/python2.7/dist-packages (python 2.7)`<br>
+`(env) user@clipbot:~/clipbot_arduino$ easy_install -U pip`<br>
+`(env) user@clipbot:~/clipbot_arduino$ pip --version`<br>
+`pip 10.0.1 from [...]/clipbot_arduino/env/local/lib/python2.7/site-packages/pip (python 2.7)`<br>
+`(env) user@clipbot:~/clipbot_arduino$ easy_install -U platformio`
