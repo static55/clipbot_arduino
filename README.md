@@ -1,6 +1,6 @@
 # clipbot_arduino
 
-This is the Arduino code my robot uses with BotCtrl and clipbot_sshd. It depends on rosserial to accept ROS Twist messages from clipot_sshd that it interprets and sends to the motors.
+This is the Arduino code my robot uses with <a href="https://github.com/static55/ClipbotCtrl">ClipbotCtrl</a> and <a href="https://github.com/static55/clipbot_sshd">clipbot_sshd</a>. It depends on rosserial to accept ROS Twist messages from clipot_sshd that it interprets and sends to the motors.
 
 Note that this project is configured for an Arduino Mega 2560. If you're using a different board, you'll need to find your board with `platformio boards` and then initialize a new platformio project with `platformio init --board <yourboard>`
 
