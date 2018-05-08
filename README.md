@@ -10,7 +10,7 @@ Note that this project is configured for an Arduino Mega 2560. If you're using a
 
 `user@clipbot:~$ sudo apt-get install python-pip virtualenv ros-kinetic-rosserial-arduino ros-kinetic-rosserial`<br>
 
-#### Build a virtual python environment to avoid touching Ubuntu-installed packages.
+#### Upgrade/Install Pip and PlatformIO in a virtual environment to avoid clobbering Ubuntu-installed packages.
 
 `user@clipbot:~$ mkdir clipbot_arduino`<br>
 `user@clipbot:~$ cd clipbot_arduino`<br>
